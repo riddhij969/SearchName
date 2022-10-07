@@ -9,14 +9,17 @@
     font-size: 15px;
     width: 250px;
     border-width: 0;
-    background: rgb(2, 0, 128);
-    color: greenyellow;
+    /* background: rgba(255, 255, 255, 0.397); */
+    background: white;
+    color: rgb(0, 0, 0);
     border-radius: 50px;
     box-shadow: 0 0 5px rgba(255,255,255,0.5);
 }
 
 .search-input::placeholder {
-    color: greenyellow;
+    color: rgb(3, 3, 3);
+    font-family: 'Lato', sans-serif;
+    
 }
 
 .search-input:focus{
